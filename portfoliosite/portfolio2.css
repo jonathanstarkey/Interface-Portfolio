@@ -218,7 +218,7 @@ body {
 
 .flex-item {
     width: 462px;
-    height: 150px;
+    height: 180px;
    
     color: white;
     font-weight: bold;
@@ -230,7 +230,7 @@ body {
 .flex-container div:nth-child(1) {
 
     background-color: beige;
-    margin-right: 10px;
+    margin-right: 8px;
     
 
     background-image: 
@@ -251,7 +251,7 @@ body {
     
     background-color: red;
 
-    margin-left: 10px;
+    margin-left: 7px;
     
     background-image: 
 }
