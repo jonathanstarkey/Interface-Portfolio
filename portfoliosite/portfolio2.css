@@ -132,12 +132,25 @@ body {
     border: 1px solid #3c3c3c;
 }
 
-.about h2{
-    width: 300px;
-    margin-top:-25px;
-    margin-left: auto;
-    margin-right: auto;
+.header-row{
+    display: flex;
+    flex-flow: row;
+    -webkit-flex-shrink: 1;
+    
+    justify-content: center;
+    text-align: center;
+    
+ 
     background-color: #ffffff;
+}
+
+.about h2{
+    
+    margin-top:-25px;
+    width: 70%;
+    background-color: #ffffff;
+    
+    -webkit-flex-shrink: 1;
     
     font: 1.5em 'Lato', sans-serif;
     font-weight: 700;
