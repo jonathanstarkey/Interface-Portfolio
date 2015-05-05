@@ -255,8 +255,38 @@ body {
     background-image: 
 }
 
-.footer{
-    background-color: bisque;
-     height:400px;
+/*------ MEDIA QUERIES ------*/
+
+@media (max-width:768px){.header > div{
+    height: 500px;
+}}
+
+@media (max-width:768px){.header-icon{
+    padding-top: 80px;
+    padding-bottom: 45px;
+}}
+
+@media (max-width:768px){.header p{
+    padding-bottom: 60px;
+}}
+
+@media (max-width:933px){.flex-container{
+    -webkit-flex-flow: row wrap;
     
-}
+    justify-content: center;
+}}
+
+@media (max-width:933px){.flex-item{
+    width: 675px;
+}}
+
+@media (max-width:933px){.flex-container div:nth-child(1){
+    
+    margin-right: 0px;
+    margin-bottom: 8px;
+}}
+
+@media (max-width:933px){.flex-container div:nth-child(3){
+    margin-left: 0px;
+    margin-top: 8px;
+}}
