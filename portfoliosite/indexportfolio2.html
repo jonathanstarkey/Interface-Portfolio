@@ -4,6 +4,7 @@
     <title>Portfolio Site</title>
     <link href="reset.css" rel="stylesheet" type="text/css">
     <link href="portfolio2.css" rel="stylesheet" type="text/css">
+    <link href="css/lightbox.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 </head>
     
@@ -40,15 +41,24 @@
         </section>
         <section class="gallery">
             <div class="flex-container">
-                <div class="flex-item">
-                    <p>Front-End <br>Development</p>
-                </div>
-                <div class="flex-item design">
+                <a href="images/frontendgallery.jpg" class="flex-item frontend" data-lightbox="frontend">
+                    <p>Front-End Development</p>
+                    <a href="images/frontendgallery.jpg" data-lightbox="frontend" display: none></a>
+                    <a href="images/frontendgallery.jpg" data-lightbox="frontend" display: none></a>
+                    <a href="images/frontendgallery.jpg" data-lightbox="frontend" display: none></a>
+                </a>
+                <a href="images/designgallery.jpg" class="flex-item design" data-lightbox="design">
                     <p>Design</p>
-                </div>
-                <div class="flex-item">
+                    <a href="images/designgallery.jpg" data-lightbox="design" display: none></a>
+                    <a href="images/designgallery.jpg" data-lightbox="design" display: none></a>
+                    <a href="images/designgallery.jpg" data-lightbox="design" display: none></a>
+                </a>
+                <a href="images/illustrationgallery.jpg" class="flex-item illustration" data-lightbox="illustration">
                     <p>Illustration</p>
-                </div>
+                    <a href="images/illustrationgallery.jpg" data-lightbox="illustration" display: none></a>
+                    <a href="images/illustrationgallery.jpg" data-lightbox="illustration" display: none></a>
+                    <a href="images/illustrationgallery.jpg" data-lightbox="illustration" display: none></a>
+                </a>
         </div>
         
         </section>
@@ -74,7 +84,8 @@
     
     
     </div>
-    
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
     
 </body>
 </html>

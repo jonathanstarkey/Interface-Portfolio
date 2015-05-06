@@ -224,23 +224,23 @@ body {
     font-size: 3em;
     text-align: center;
     line-height: 150px;
+    
+    text-decoration: none;
 }
 
-.flex-container div:nth-child(1) {
-
-    background-color: #000000;
+.frontend {
     margin-right: 8px;
     
     background: url(images/frontendgallery.jpg) no-repeat 50% 50%;
 }
 
-.flex-container div:nth-child(1):hover {
+.frontend:hover {
     margin-right: 8px;
     
     background: url(images/frontendgalleryhov.jpg) no-repeat 50% 50%;
 }
 
-.flex-container div:nth-child(1) p{
+.frontend p{
     width: 300px;
     
     margin-top: 105px;
@@ -252,22 +252,23 @@ body {
     letter-spacing: .25em;
     
     text-align: left;
+    text-decoration: none;
     text-transform: uppercase;
     color: #ffffff;
 }
 
-.flex-container div:nth-child(2) {
+.design {
 
     background-color: #000000;
 
     background: url(images/designgallery.jpg) no-repeat 50% 50%;
 }
 
-.flex-container div:nth-child(2):hover {    
+.design:hover {    
     background: url(images/designgalleryhov.jpg) no-repeat 50% 50%;
 }
 
-.flex-container div:nth-child(2) p{
+.design p{
     margin-top: 130px;
     padding-left: 30px;
     
@@ -281,21 +282,19 @@ body {
     color: #ffffff;
 }
 
-
-
-.flex-container div:nth-child(3) {
+.illustration {
     margin-left: 8px;
     
     background: url(images/illustrationgallery.jpg) no-repeat 50% 50%;
 }
 
-.flex-container div:nth-child(3):hover {
+.illustration:hover {
     margin-left: 8px;
     
     background: url(images/illustrationgalleryhov.jpg) no-repeat 50% 50%;
 }
 
-.flex-container div:nth-child(3) p{
+.illustration p{
     margin-top: 130px;
     padding-left: 30px;
     
@@ -333,25 +332,25 @@ body {
     width: 675px;
 }}
 
-@media (max-width:933px){.flex-container div:nth-child(1){
+@media (max-width:933px){.frontend{
     
     margin-right: 0px;
     margin-bottom: 8px;
 }}
 
-@media (max-width:933px){.flex-container div:nth-child(1):hover{
+@media (max-width:933px){.frontend:hover{
     
     margin-right: 0px;
     margin-bottom: 8px;
 }}
 
 
-@media (max-width:933px){.flex-container div:nth-child(3){
+@media (max-width:933px){.illustration{
     margin-left: 0px;
     margin-top: 8px;
 }}
 
-@media (max-width:933px){.flex-container div:nth-child(3):hover{
+@media (max-width:933px){.illustration:hover{
     margin-left: 0px;
     margin-top: 8px;
 }}
