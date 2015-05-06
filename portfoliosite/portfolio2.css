@@ -23,8 +23,11 @@ body {
     background-size: 100%;
 }
 
-.header-content{    
-    text-align: center;   
+
+.header-content{   
+    height: 100%;
+    text-align: center;
+    
 }
 
 .header-icon{
@@ -32,14 +35,50 @@ body {
 }
 
 .header-column{
-    display: block;
-    margin: auto auto;
-        
-    width: 440px;
-    padding-left: 30px;
-    padding-right: 30px;
-
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    
+    -webkit-flex-shrink: 1;
+    flex-shrink: 1;
+    
+    width: 450px;
+    
+    margin: 0 auto;
+    justify-content: center;
+    
+    align-content: center;
 }
+
+.header-two-row{
+     display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    
+    -webkit-flex-shrink: 1;
+    flex-shrink: 1;
+    
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+    align-content: center;
+    
+    height: 100%;    
+}
+
 
 .header h1{
     padding-bottom: .5em;
@@ -53,14 +92,13 @@ body {
 
 .header p{
     padding-bottom: 180px;
-    
+        
     font: .7em 'Lato', sans-serif;
     font-weight: 300;
     line-height: 2em;
     
     text-transform: uppercase;
     color: #ffffff;
-
 }
 
 /*------ ABOUT ------*/
