@@ -42,12 +42,12 @@ body {
     -webkit-flex-shrink: 1;
     flex-shrink: 1;
     
-    width: 450px;
-    
-    margin: 0 auto;
     justify-content: center;
-    
-    align-content: center;
+        
+    width: 450px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .header-two-row{
@@ -79,6 +79,9 @@ body {
     height: 100%;    
 }
 
+.header-icon{
+    padding-bottom: 45px;
+}
 
 .header h1{
     padding-bottom: .5em;
@@ -146,8 +149,7 @@ body {
 
     margin: 0 auto;    
 
-    text-align: center;
-   
+    text-align: center; 
 }
 
 .about-row{
@@ -420,9 +422,9 @@ body {
 
 
 
-@media (max-width:768px){.header-icon{
-    padding-top: 80px;
-    padding-bottom: 45px;
+@media (max-width:768px){.down-arrow{
+    bottom: 60px;
+   
 }}
 
 @media (max-width:768px){.header p{
