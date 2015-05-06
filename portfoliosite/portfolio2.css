@@ -24,10 +24,10 @@ body {
     -webkit-flex-shrink: 1;
         
     width: 1440px;
-    height: 800px;
+    height: 700px;
     margin: 0 auto;
     
-    background: url(images/placeholder_header.jpg) no-repeat 50% 50%;
+    background: url(images/headerwater2.jpg) no-repeat 50% 50%;
     background-size: 1440px 800px;
     
     text-align: center;
@@ -43,7 +43,7 @@ body {
 }
 
 .header-icon{
-    padding-top: 215px;
+    padding-top: 115px;
     padding-bottom: 69px;
 }
 
@@ -182,7 +182,7 @@ body {
 }
 
 .about p{
-    margin-top: 13%;
+    margin-top: 50px;
     
     font: .85em 'Lato', sans-serif;
     font-weight: 300;
@@ -231,30 +231,83 @@ body {
     background-color: #000000;
     margin-right: 8px;
     
+    background: url(images/frontendgallery.jpg) no-repeat 50% 50%;
+}
 
-    background-image: 
+.flex-container div:nth-child(1):hover {
+    margin-right: 8px;
     
+    background: url(images/frontendgalleryhov.jpg) no-repeat 50% 50%;
+}
+
+.flex-container div:nth-child(1) p{
+    width: 300px;
     
+    margin-top: 105px;
+    padding-left: 30px;
+    
+    font: .4em 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: .25em;
+    
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 
 .flex-container div:nth-child(2) {
 
     background-color: #000000;
 
-    
-    background-image: 
-
+    background: url(images/designgallery.jpg) no-repeat 50% 50%;
 }
+
+.flex-container div:nth-child(2):hover {    
+    background: url(images/designgalleryhov.jpg) no-repeat 50% 50%;
+}
+
+.flex-container div:nth-child(2) p{
+    margin-top: 130px;
+    padding-left: 30px;
+    
+    font: .4em 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: .25em;
+    
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
 
 .flex-container div:nth-child(3) {
-    
-    background-color: #000000;
-
     margin-left: 8px;
     
-    background-image: 
+    background: url(images/illustrationgallery.jpg) no-repeat 50% 50%;
 }
 
+.flex-container div:nth-child(3):hover {
+    margin-left: 8px;
+    
+    background: url(images/illustrationgalleryhov.jpg) no-repeat 50% 50%;
+}
+
+.flex-container div:nth-child(3) p{
+    margin-top: 130px;
+    padding-left: 30px;
+    
+    font: .4em 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: .25em;
+    
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+}
 /*------ MEDIA QUERIES ------*/
 
 @media (max-width:768px){.header > div{
@@ -286,7 +339,19 @@ body {
     margin-bottom: 8px;
 }}
 
+@media (max-width:933px){.flex-container div:nth-child(1):hover{
+    
+    margin-right: 0px;
+    margin-bottom: 8px;
+}}
+
+
 @media (max-width:933px){.flex-container div:nth-child(3){
+    margin-left: 0px;
+    margin-top: 8px;
+}}
+
+@media (max-width:933px){.flex-container div:nth-child(3):hover{
     margin-left: 0px;
     margin-top: 8px;
 }}
