@@ -101,6 +101,12 @@ body {
     color: #ffffff;
 }
 
+.down-arrow {
+    position: absolute;
+    padding-left: 50%;
+    bottom: 80px;
+}
+
 /*------ ABOUT ------*/
 
 .about{    
