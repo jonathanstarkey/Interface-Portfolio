@@ -23,12 +23,12 @@
                         </div>
                     </div>
                     <div class="down-arrow">
-                        <img src="images/downarrow2.png">
+                       <a href="#about"><img src="images/downarrow2.png"></a> 
                     </div>
                 </div>
             </div>
         </header>
-        <section class="about">
+        <section class="about" id="about">
             <div class="about-container shadow">
                 <div class="about-row">
                     <div class="about-box">
@@ -95,8 +95,25 @@
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script>
         $(document).ready(function() {
-        
+            
+            <!--Parallax-->
             $(window).stellar();
+                        
+            <!--Scroll to ABOUT-->
+            $('a[href*=#]').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+                && location.hostname == this.hostname) {
+                var $target = $(this.hash);
+                $target = $target.length && $target
+                || $('[name=' + this.hash.slice(1) +']');
+                if ($target.length) {
+                var targetOffset = $target.offset().top;
+                $('html,body')
+                .animate({scrollTop: targetOffset}, 1000);
+                return false;
+                }
+                }
+            });
         });
     </script>
     
