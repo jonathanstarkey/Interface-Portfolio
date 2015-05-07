@@ -37,13 +37,14 @@
                                 <div class="header-row">
                                     <h2>About</h2>
                                 </div>
+                                <div>
                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        
         </section>
         <section class="gallery">
             <div class="flex-container">
@@ -65,28 +66,38 @@
                     <a href="images/illustrationgallery.jpg" data-lightbox="illustration" display: none></a>
                     <a href="images/illustrationgallery.jpg" data-lightbox="illustration" display: none></a>
                 </a>
-        </div>
-        
+            </div>
         </section>
-        <section class="about">
-            <div class="about-container">
-                <div class="about-row">
-                    <div class="about-box">
-                        <div class="box-row">
-                            <div class=about-column>
-                                <div class="header-row">
-                                <h2>Contact</h2>
+        <section class="contact">
+            <div class="contact-container">
+                <div class="contact-row">
+                    <div class="contact-box">
+                        <div class="contact-box-row">
+                            <div class=contact-column>
+                                <div class="contact-header-row">
+                                    <h2>Contact</h2>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                                <div class="social-column">
+                                    <p>Omaha, NE</p>
+                                    <p>1-402-312-4941</p>
+                                    <div class="social-row">
+                                        <a href="mailto:jonathanstarkey@hotmail.com" class="email"></a>
+                                        <a href="https://www.linkedin.com/pub/jonathan-starkey/9b/826/b77"class="linked"></a>
+                                        <a href="https://twitter.com/starkey2014" class="twitter"></a>
+                                        <a href="https://www.tumblr.com/blog/starkeyillustration" class="tumblr"></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        
-        
-        
         </section>
+        <footer class="footer">
+            <div>
+                <span>&copy; Jonathan Starkey, 2015</span>
+            </div>
+        </footer>
     
     
     </div>
@@ -99,7 +110,7 @@
             <!--Parallax-->
             $(window).stellar();
                         
-            <!--Scroll to ABOUT-->
+            <!--Scroll to Link-->
             $('a[href*=#]').click(function() {
                 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
                 && location.hostname == this.hostname) {
