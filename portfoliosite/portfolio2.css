@@ -129,13 +129,16 @@ body {
 
 .down-arrow {
     position: absolute;
-    padding-left: 47%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin: 0 auto;
     bottom: 80px;
 }
 
 /*------ ABOUT ------*/
 
-.about{    
+.about {    
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -143,7 +146,7 @@ body {
     display: flex;  
 }
 
-.about-container{
+.about-container {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -175,7 +178,7 @@ body {
     text-align: center; 
 }
 
-.about-row{
+.about-row {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -226,7 +229,7 @@ body {
     border: 1px solid #3c3c3c;
 }
 
-.header-row{
+.header-row {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -255,7 +258,7 @@ body {
     background-color: #ffffff;
 }
 
-.about h2{
+.about h2 {
     margin-top:-25px;
     width: 70%;
     background-color: #ffffff;
@@ -272,7 +275,7 @@ body {
     color: #3c3c3c;
 }
 
-.box-row{
+.box-row {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -299,7 +302,7 @@ body {
     text-align: center;
 }
 
-.about-column{
+.about-column {
     width: 440px;
     padding-left: 20px;
     padding-right: 20px;
@@ -307,7 +310,7 @@ body {
     text-align: center;
 }
 
-.about p{
+.about p {
     margin-top: 50px;
     
     font: .85em 'Lato', sans-serif;
@@ -376,7 +379,7 @@ body {
     background: url(images/frontendgalleryhov.jpg) no-repeat 50% 50%;
 }
 
-.frontend p{
+.frontend p {
     width: 300px;
     
     margin-top: 105px;
