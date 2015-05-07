@@ -21,6 +21,8 @@ body {
 
     background: url(images/headerwater2.jpg) repeat center center;
     background-size: 100%;
+    
+    background-attachment: fixed;
 }
 
 
