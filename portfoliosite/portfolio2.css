@@ -702,6 +702,21 @@ body {
     background-color: #3c3c3c;
 }
 
+.email{
+    background: url(images/email.png) no-repeat 50% 50%;
+}
+
+.linked{
+    background: url(images/linked.png) no-repeat 50% 50%;
+}
+
+.twitter{
+    background: url(images/Twitter.png) no-repeat 50% 50%;
+}
+
+.tumblr{
+    background: url(images/tumblr.png) no-repeat 50% 50%;
+}
 
 /*------ FOOTER ------*/
 
