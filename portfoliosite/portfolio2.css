@@ -688,7 +688,7 @@ body {
     max-width: 1400px;
 }
 
-.social-column P{
+.social-column p{
     padding-bottom: 10px;
 }
 
@@ -698,9 +698,7 @@ body {
     margin-top: 10px;
     margin-right: 9px;
     margin-left: 8px;
-    border-right: 1px solid #e3e3e3;
-    
-    
+    border-right: 1px solid #e3e3e3;       
 }
 
 .social-row a{
@@ -708,8 +706,13 @@ body {
     width: 25px;
     margin-left: 5px;
     margin-right: 5px;
+    background-color: #666666;
+}
+
+.social-row a:hover{
     background-color: #3c3c3c;
 }
+
 
 .divider{
     width: 0;
@@ -912,3 +915,44 @@ hr{
     margin-left: 0px;
     margin-top: 8px;
 }}
+
+@media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) 
+    and (orientation : landscape) 
+    and (-webkit-min-device-pixel-ratio : 2)
+{ }
+
+@media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) 
+    and (orientation : portrait) 
+    and (-webkit-min-device-pixel-ratio : 2)
+{ }
+
+@media only screen 
+    and (min-device-width : 414px) 
+    and (max-device-width : 736px) 
+    and (orientation : landscape) 
+    and (-webkit-min-device-pixel-ratio : 3) 
+{ }
+
+@media only screen 
+    and (min-device-width : 414px) 
+    and (max-device-width : 736px) 
+    and (orientation : portrait) 
+    and (-webkit-min-device-pixel-ratio : 3) 
+{ }
+
+@media screen 
+    and (min-device-width : 1080px) 
+    and (max-device-width : 1920px) 
+    and (min-resolution: 401dpi) 
+    and (device-aspect-ratio:16/9) 
+{ }
+
+@media screen 
+    and (min-device-width : 750px) 
+    and (max-device-width : 1334px) 
+    and (min-resolution: 326dpi) 
+{ }
