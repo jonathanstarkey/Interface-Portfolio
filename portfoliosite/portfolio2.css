@@ -116,6 +116,10 @@ body {
     color: #ffffff;
 }
 
+h1 span{
+    display: inline-block;
+}
+
 .header p{
     padding-bottom: 180px;
         
