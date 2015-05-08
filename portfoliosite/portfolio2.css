@@ -120,7 +120,7 @@ h1 span{
     display: inline-block;
 }
 
-.header p{
+.header h2{
     padding-bottom: 180px;
         
     font: .7em 'Lato', sans-serif;
@@ -129,6 +129,20 @@ h1 span{
     
     text-transform: uppercase;
     color: #ffffff;
+}
+
+h2 span{
+    font-weight: 700;
+    line-height: 2em;
+    color: #ffffff;
+}
+
+.h2-divider{
+    width: 0;
+    height: 15px;
+    margin-left: 8px;
+    margin-right: 6px;
+    border-right: 1px solid #ffffff;     
 }
 
 .down-arrow {
