@@ -424,7 +424,7 @@ body {
     background: url(images/illustrationgallery.jpg) no-repeat 50% 50%;
 }
 
-.illustration:hover {
+.illustration:hover{
     margin-left: 8px;
     
     background: url(images/illustrationgalleryhov.jpg) no-repeat 50% 50%;
@@ -514,7 +514,7 @@ body {
     text-align: center;
 }
 
-.contact-box {
+.contact-box{
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -692,52 +692,58 @@ body {
     padding-bottom: 10px;
 }
 
-.social-column span{
+.list-divider{
     width: 0;
     height: 15px;
-    margin-top: 10px;
+    margin-left: 6px;
     margin-right: 9px;
-    margin-left: 8px;
     border-right: 1px solid #e3e3e3;       
 }
 
-.social-row a{
-    height: 25px;
-    width: 25px;
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: #666666;
+.contact-list{
+    display: inline-block;
 }
 
-.social-row a:hover{
+.social-link{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    margin: 0 4px;
+}
+
+.social-link a:hover{
     background-color: #3c3c3c;
 }
 
-
-.divider{
+.social-divider{
+    display: inline-block;
     width: 0;
     height: 15px;
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-left: 5px;
-    border-right: 1px solid #e3e3e3;
-
+    margin: 0 3px;
+    
+    vertical-align: 29%;
+    
+    border-right: 1px solid #e3e3e3;       
 }
 
 .email{
     background: url(images/email.png) no-repeat 50% 50%;
+    background-color: #666666;
 }
 
 .linked{
     background: url(images/linked.png) no-repeat 50% 50%;
+    background-color: #666666;
 }
 
 .twitter{
     background: url(images/Twitter.png) no-repeat 50% 50%;
+    background-color: #666666;
 }
 
 .tumblr{
     background: url(images/tumblr.png) no-repeat 50% 50%;
+    background-color: #666666;
 }
 
 /*------ FOOTER ------*/
@@ -785,6 +791,8 @@ body {
 }
 
 hr{
+    margin-top: 0px;
+    
     border: 0;
     width: 1440px;
     height: 0;
