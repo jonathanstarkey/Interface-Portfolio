@@ -619,14 +619,6 @@ body {
     text-align: center;
 }
 
-.contact p{    
-    font: .85em 'Lato', sans-serif;
-    font-weight: 300;
-    line-height: 1.5em;
-    
-    color: #3c3c3c;
-}
-
 .social{
     max-width: 1400px;
     padding: 0;
@@ -688,8 +680,15 @@ body {
     max-width: 1400px;
 }
 
-.social-column p{
-    padding-bottom: 10px;
+.information{
+    display: inline-block;
+    margin-bottom: 10px;
+    
+    font: .85em 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    
+    color: #3c3c3c;
 }
 
 .list-divider{
@@ -711,7 +710,7 @@ body {
     margin: 0 4px;
 }
 
-.social-link a:hover{
+.social-link:hover{
     background-color: #3c3c3c;
 }
 
