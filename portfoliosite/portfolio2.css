@@ -931,7 +931,6 @@ hr{
     margin-bottom: 8px;
 }}
 
-
 @media (max-width:933px){.illustration{
     margin-left: 0px;
     margin-top: 8px;
@@ -941,7 +940,7 @@ hr{
     margin-left: 0px;
     margin-top: 8px;
 }}
-
+/*
 @media only screen 
     and (min-device-width : 375px) 
     and (max-device-width : 667px) 
@@ -950,23 +949,9 @@ hr{
 { }
 
 @media only screen 
-    and (min-device-width : 375px) 
-    and (max-device-width : 667px) 
-    and (orientation : portrait) 
-    and (-webkit-min-device-pixel-ratio : 2)
-{ }
-
-@media only screen 
     and (min-device-width : 414px) 
     and (max-device-width : 736px) 
     and (orientation : landscape) 
-    and (-webkit-min-device-pixel-ratio : 3) 
-{ }
-
-@media only screen 
-    and (min-device-width : 414px) 
-    and (max-device-width : 736px) 
-    and (orientation : portrait) 
     and (-webkit-min-device-pixel-ratio : 3) 
 { }
 
@@ -981,4 +966,4 @@ hr{
     and (min-device-width : 750px) 
     and (max-device-width : 1334px) 
     and (min-resolution: 326dpi) 
-{ }
+{ }*/
