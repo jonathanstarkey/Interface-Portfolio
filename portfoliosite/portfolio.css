@@ -894,6 +894,10 @@ hr{
     padding-bottom: 80px;
 }}
 
+@media (max-width:500px){.about p {
+    margin-top: 33px;
+}}
+
 @media (max-width:933px){.flex-container{
     -webkit-box-direction: normal;
     -moz-box-direction: normal;
