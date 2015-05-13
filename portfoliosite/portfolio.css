@@ -322,17 +322,21 @@ h2 span{
 }
 
 .about-column {
-    width: 440px;
+    width: 680px;
+    margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
+    
     
     text-align: center;
 }
 
 .about p {
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
     
-    font: .85em 'Lato', sans-serif;
+    font: 1em 'Lato', sans-serif;
     font-weight: 300;
     line-height: 1.5em;
     
@@ -374,8 +378,25 @@ h2 span{
 
 
 .flex-item {
-    width: 462px;
-    height: 180px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    
+    max-width: 1400px;
+    padding: 0;
+    margin: 0 auto;
    
     color: white;
     font-weight: bold;
@@ -383,16 +404,22 @@ h2 span{
     text-align: center;
     line-height: 150px;
     
-    text-decoration: none;
+    
 }
 
 .frontend {
+    width: 462px;
+    height: 180px;
     margin-right: 8px;
     
     background: url(images/frontendgallery.jpg) no-repeat 50% 50%;
+    
+    text-decoration: none;
 }
 
 .frontend:hover {
+    width: 462px;
+    height: 180px;
     margin-right: 8px;
     
     background: url(images/frontendgalleryhov.jpg) no-repeat 50% 50%;
@@ -416,10 +443,18 @@ h2 span{
 }
 
 .design {
+    width: 462px;
+    height: 180px;
+    
     background: url(images/designgallery.jpg) no-repeat 50% 50%;
+    
+    text-decoration: none;
 }
 
-.design:hover {    
+.design:hover {
+    width: 462px;
+    height: 180px;
+    
     background: url(images/designgalleryhov.jpg) no-repeat 50% 50%;
 }
 
@@ -438,12 +473,18 @@ h2 span{
 }
 
 .illustration {
+    width: 462px;
+    height: 180px;
     margin-left: 8px;
     
     background: url(images/illustrationgallery.jpg) no-repeat 50% 50%;
+    
+    text-decoration: none;
 }
 
 .illustration:hover{
+    width: 462px;
+    height: 180px;
     margin-left: 8px;
     
     background: url(images/illustrationgalleryhov.jpg) no-repeat 50% 50%;
@@ -895,6 +936,151 @@ hr{
     padding-bottom: 80px;
 }}
 
+@media (max-width:701px){.about-box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    height: 250px;
+    width: 675px;
+    
+    margin-left: 30px;
+    margin-right: 30px;
+
+    border: 1px solid #3c3c3c;
+}
+
+@media (max-width:603px){.about-box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    height: 280px;
+    width: 675px;
+    
+    margin-left: 30px;
+    margin-right: 30px;
+
+    border: 1px solid #3c3c3c;
+}
+    
+@media (max-width:536px){.about-box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    height: 300px;
+    width: 675px;
+    
+    margin-left: 30px;
+    margin-right: 30px;
+
+    border: 1px solid #3c3c3c;
+}
+    
+@media (max-width:484px){.about-box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    height: 320px;
+    width: 675px;
+    
+    margin-left: 30px;
+    margin-right: 30px;
+
+    border: 1px solid #3c3c3c;
+}
+
+@media (max-width:438px){.about-box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    height: 340px;
+    width: 675px;
+    
+    margin-left: 30px;
+    margin-right: 30px;
+
+    border: 1px solid #3c3c3c;
+}
+    
+@media (max-width:410px){.about-box{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    height: 370px;
+    width: 675px;
+    
+    margin-left: 30px;
+    margin-right: 30px;
+
+    border: 1px solid #3c3c3c;
+}
+
+
 @media (max-width:933px){.flex-container{
     -webkit-box-direction: normal;
     -moz-box-direction: normal;
@@ -916,27 +1102,39 @@ hr{
 }}
 
 @media (max-width:933px){.flex-item{
-    width: 675px;
+   
 }}
 
 @media (max-width:933px){.frontend{
-    
+    width: 675px;
     margin-right: 0px;
     margin-bottom: 8px;
 }}
 
 @media (max-width:933px){.frontend:hover{
-    
+    width: 675px;
     margin-right: 0px;
     margin-bottom: 8px;
 }}
 
+@media (max-width:933px){.design{
+    width: 675px;
+    margin-right: 0px;
+}}
+
+@media (max-width:933px){.design:hover{
+    width: 675px;
+    margin-right: 0px;
+}}
+
 @media (max-width:933px){.illustration{
+    width: 675px;
     margin-left: 0px;
     margin-top: 8px;
 }}
 
 @media (max-width:933px){.illustration:hover{
+    width: 675px;
     margin-left: 0px;
     margin-top: 8px;
 }}
