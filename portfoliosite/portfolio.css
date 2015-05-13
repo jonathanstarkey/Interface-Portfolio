@@ -940,7 +940,7 @@ hr{
     margin-left: 0px;
     margin-top: 8px;
 }}
-/*
+
 @media only screen 
     and (min-device-width : 375px) 
     and (max-device-width : 667px) 
@@ -966,4 +966,4 @@ hr{
     and (min-device-width : 750px) 
     and (max-device-width : 1334px) 
     and (min-resolution: 326dpi) 
-{ }*/
+{ }
