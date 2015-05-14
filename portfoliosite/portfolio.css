@@ -157,14 +157,24 @@ h2 span{
 /*------ ABOUT ------*/
 
 .about-container{
-  display: flex;
--moz-box-direction: normal;
--moz-box-orient: horizontal;
-flex-flow: row nowrap;
--moz-box-pack: justify;
-height: 400px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -moz-box-direction: normal;
+    -moz-box-orient: horizontal;
+    flex-flow: row nowrap;
+    -moz-box-pack: justify;
 
-justify-content: center; 
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; 
+    
+    height: 400px;
 }
 
 .about-box{
@@ -338,14 +348,24 @@ justify-content: center;
 /*------ CONTACTS ------*/
 
 .contact-container{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    
     -moz-box-direction: normal;
     -moz-box-orient: horizontal;
     flex-flow: row nowrap;
     -moz-box-pack: justify;
-    height: 400px;
-
+    
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center; 
+    
+    height: 400px;
 }
 
 .contact-box{
@@ -379,19 +399,6 @@ justify-content: center;
     color: #3c3c3c;
 }
 
-.information{
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    
-    font: .85em 'Lato', sans-serif;
-    font-weight: 300;
-    line-height: 1.5em;
-    
-    color: #3c3c3c;
-}
-
 .social-column{
     display: -webkit-box;
     display: -moz-box;
@@ -417,7 +424,28 @@ justify-content: center;
     justify-content: center;
     
     height: 172px;
-    margin: 0 auto;    
+    margin: 0 auto;
+    
+    text-align: center;
+}
+
+.information{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+    font: .85em 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    
+    color: #3c3c3c;
 }
 
 .social-row{
@@ -445,17 +473,6 @@ justify-content: center;
     justify-content: center;
     
     max-width: 1400px;
-}
-
-.information{
-    display: inline-block;
-    margin-bottom: 10px;
-    
-    font: .85em 'Lato', sans-serif;
-    font-weight: 300;
-    line-height: 1.5em;
-    
-    color: #3c3c3c;
 }
 
 .list-divider{
@@ -516,14 +533,24 @@ justify-content: center;
 /*------ FOOTER ------*/
 
 .footer-container{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    
     -moz-box-direction: normal;
     -moz-box-orient: horizontal;
     flex-flow: row nowrap;
     -moz-box-pack: justify;
-    height: 100px;
 
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center; 
+    
+    height: 100px;
 }
 
 .footer-box{
