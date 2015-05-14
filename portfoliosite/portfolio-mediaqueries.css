@@ -1,0 +1,108 @@
+/*------ PORTFOLIO MEDIA QUERIES ------*/
+
+/*------ HEADER ------*/
+
+@media (max-width:768px){.down-arrow{
+    bottom: 60px;
+   
+}}
+
+@media (max-width:768px){.header p{
+    padding-bottom: 80px;
+}}
+
+
+/*------ ABOUT ------*/
+
+@media (max-width:464px){.about-copy{
+    padding-top: 43px;
+}}
+
+@media (max-width:397px){.about-copy{
+    padding-top: 33px;
+}}
+
+@media (max-width:336px){.about-copy{
+    padding-top: 23px;
+}}
+
+@media (max-width:320px){.about-copy{
+    padding-top: 5px;
+}}
+
+/*------ GALLERIE ------*/
+
+@media (max-width:933px){.flex-container{
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}}
+
+@media (max-width:933px){.flex-item{
+    width: 675px;
+}}
+
+@media (max-width:933px){.frontend{
+    
+    margin-right: 0px;
+    margin-bottom: 8px;
+}}
+
+@media (max-width:933px){.frontend:hover{
+    
+    margin-right: 0px;
+    margin-bottom: 8px;
+}}
+
+@media (max-width:933px){.illustration{
+    margin-left: 0px;
+    margin-top: 8px;
+}}
+
+@media (max-width:933px){.illustration:hover{
+    margin-left: 0px;
+    margin-top: 8px;
+}}
+
+/*------ SCREEN ------*/
+
+@media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) 
+    and (orientation : landscape) 
+    and (-webkit-min-device-pixel-ratio : 2)
+{ }
+
+@media only screen 
+    and (min-device-width : 414px) 
+    and (max-device-width : 736px) 
+    and (orientation : landscape) 
+    and (-webkit-min-device-pixel-ratio : 3) 
+{ }
+
+@media screen 
+    and (min-device-width : 1080px) 
+    and (max-device-width : 1920px) 
+    and (min-resolution: 401dpi) 
+    and (device-aspect-ratio:16/9) 
+{ }
+
+@media screen 
+    and (min-device-width : 750px) 
+    and (max-device-width : 1334px) 
+    and (min-resolution: 326dpi) 
+{ }
