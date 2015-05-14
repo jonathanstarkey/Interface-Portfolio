@@ -338,14 +338,14 @@ justify-content: center;
 /*------ CONTACTS ------*/
 
 .contact-container{
-  display: flex;
--moz-box-direction: normal;
--moz-box-orient: horizontal;
-flex-flow: row nowrap;
--moz-box-pack: justify;
-height: 400px;
+    display: flex;
+    -moz-box-direction: normal;
+    -moz-box-orient: horizontal;
+    flex-flow: row nowrap;
+    -moz-box-pack: justify;
+    height: 400px;
 
-justify-content: center; 
+    justify-content: center; 
 }
 
 .contact-box{
@@ -511,7 +511,6 @@ justify-content: center;
     background: url(images/tumblr.png) no-repeat 50% 50%;
     background-color: #666666;
 }
-
 
 
 /*------ FOOTER ------*/

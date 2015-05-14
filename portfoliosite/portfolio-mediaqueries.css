@@ -14,6 +14,13 @@
 
 /*------ ABOUT ------*/
 
+@media (max-width:700px){.about-title{
+    width:50%;
+}}
+
+@media (max-width:500px){.about-title{
+    width:70%;
+}}
 @media (max-width:464px){.about-copy{
     padding-top: 43px;
 }}
@@ -76,6 +83,17 @@
 @media (max-width:933px){.illustration:hover{
     margin-left: 0px;
     margin-top: 8px;
+}}
+
+
+/*------ CONTACT ------*/
+
+@media (max-width:700px){.contact-title{
+    width:50%;
+}}
+
+@media (max-width:500px){.contact-title{
+    width:70%;
 }}
 
 /*------ SCREEN ------*/
