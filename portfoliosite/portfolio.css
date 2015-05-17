@@ -519,6 +519,11 @@ h2 span{
     background-color: #666666;
 }
 
+.github {
+    background: url(images/GitHub-Mark-Light-32px.png) no-repeat 50% 50%;
+    background-color: #666666;
+}
+
 .twitter{
     background: url(images/Twitter.png) no-repeat 50% 50%;
     background-color: #666666;
@@ -583,5 +588,3 @@ hr{
     
     color: #3c3c3c;
 }
-
-
