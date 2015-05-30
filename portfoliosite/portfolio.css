@@ -511,26 +511,31 @@ h2 span{
 
 .email{
     background: url(images/email.png) no-repeat 50% 50%;
+    background-size: 15px;
     background-color: #666666;
 }
 
 .linked{
     background: url(images/linked.png) no-repeat 50% 50%;
+    background-size: 13px;
     background-color: #666666;
 }
 
 .github {
     background: url(images/GitHub-Mark-Light-32px.png) no-repeat 50% 50%;
+    background-size: 16px;
     background-color: #666666;
 }
 
 .twitter{
     background: url(images/Twitter.png) no-repeat 50% 50%;
+    background-size: 15px;
     background-color: #666666;
 }
 
 .tumblr{
     background: url(images/tumblr.png) no-repeat 50% 50%;
+    background-size: 9px;
     background-color: #666666;
 }
 
